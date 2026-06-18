@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Personal Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        header{
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a{
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        section{
+            background: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        button{
+            background-color: navy;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+        }
+
+        footer{
+            text-align: center;
+            background-color: navy;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>gauri Portfolio</h1>
+
+    <nav aria-label="Main Navigation">
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello, my name is Gauri. I am learning web development and
+            currently working on HTML and CSS projects.
+        </p>
+    </section>
+
+    <section id="project">
+        <h2>My Project</h2>
+
+        <article>
+            <h3>Portfolio Website</h3>
+            <p>
+                This is a simple portfolio website made using HTML.
+            </p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Form</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" aria-label="Name" required>
+
+            <label>Email</label>
+            <input type="email" aria-label="Email" required>
+
+            <label>Message</label>
+            <textarea aria-label="Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>2025 My Portfolio</p>
+</footer>
+
+</body>
+</html>
