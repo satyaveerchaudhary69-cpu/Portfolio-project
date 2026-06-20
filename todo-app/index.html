@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>To Do List</h1>
+
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button id="addBtn">Add Task</button>
+
+        <div class="filter-buttons">
+            <button onclick="showTasks('all')">All</button>
+            <button onclick="showTasks('active')">Active</button>
+            <button onclick="showTasks('completed')">Completed</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
